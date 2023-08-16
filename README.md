@@ -1,7 +1,7 @@
 # KuraLabs
 
 Deployment 1
-Deploying a flask application using AWS Elastic Beanstalk
+Build test and deploy a flask application on Jenkins and deploy using AWS Elastic Beanstalk
 
 ## Table of contents
 
@@ -27,4 +27,5 @@ Deploying a flask application using AWS Elastic Beanstalk
   * Add personal access token as password
   * Validate connection to the repository
   * Apply and save configuration
-  * 
+
+
