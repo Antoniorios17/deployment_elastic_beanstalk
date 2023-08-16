@@ -7,7 +7,7 @@ Deploying a flask application using AWS Elastic Beanstalk
 
 1. Create a pipeline build on Jenkins
 2. Deploy application to Elastic Beanstalk
-3. gf
+3. 
 
 ## Create a pipeline build on Jenkins
 
@@ -18,10 +18,13 @@ Deploying a flask application using AWS Elastic Beanstalk
   * Log in to github
   * Access the setting
   * Select developer settings
-  *
+  * Select Token (Classic)
+  * Generate new token
+  * Check the boxes for repo, admin:org and admin:repo_hook
 * Add github credentials
   * Add github username
   * Add repository link
   * Add personal access token as password
   * Validate connection to the repository
   * Apply and save configuration
+  * 
