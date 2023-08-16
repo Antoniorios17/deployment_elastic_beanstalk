@@ -29,3 +29,4 @@ Build test and deploy a flask application on Jenkins and deploy using AWS Elasti
   * Apply and save configuration
 
 
+![jenkins-stages](https://github.com/Antoniorios17/deployment_elastic_beanstalk/blob/main/images/Jenkins-stages.png)
