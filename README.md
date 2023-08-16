@@ -119,4 +119,10 @@ Once the credentials are complete Jenkins will start the pipeline
 
 ## System Design
 
-![system-design](http)
+Jenkins Pipeline
+
+![system-design](https://github.com/Antoniorios17/deployment_elastic_beanstalk/blob/main/images/system-design1.png)
+
+Elastic Beanstalk Deployment
+
+![system-design](https://github.com/Antoniorios17/deployment_elastic_beanstalk/blob/main/images/system-design2.png)
