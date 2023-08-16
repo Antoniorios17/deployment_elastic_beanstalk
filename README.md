@@ -1,19 +1,27 @@
-<p align="center">
-<img src="https://github.com/kura-labs-org/kuralabs_deployment_1/blob/main/Kuralogo.png">
-</p>
-<h1 align="center">C4_deployment-1<h1> 
+# KuraLabs
+Deployment 1
+Deploying a flask application using AWS Elastic Beanstalk
 
-Demonstrate your ability to run a Jenkins build and manually deploy to Elastic Beanstalk.
+# Table of contents
+1. Create a pipeline build on Jenkins
+2. 
 
-- Create a separate GitHub repository for this application 
+## Create a pipeline build on Jenkins
+* Create a new multibranch pipeline
+* Add source: github
+* Create a new personal access token on github
+    * Log in to github
+    * Access the setting 
+    * Select developer settings
+    * 
+* Add github credentials
+    * Add github username
+    * Add repository link
+    * Add personal access token as password
+    * Validate connection to the repository
+    * Apply and save configuration
 
-- Download the files from this repository and upload them to your newly created repository 
 
-- Be sure to follow the deployment instructions from this Repository  
 
-- Document your progress in a .md file in your repository. Also, document any issues you may run into and what you did to fix them.
 
-- Lastly, save your documentation and diagram into your repository. Submit your repository link to the LMS
 
-## Deployment instructions Link:
--  Link to instructions: https://github.com/kura-labs-org/c4_deployment-1/blob/main/Deployment-instructions.md
