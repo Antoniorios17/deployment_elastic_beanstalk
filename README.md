@@ -83,10 +83,7 @@ Once the credentials are complete Jenkins will start the pipeline
   
 ![jenkins-stages](https://github.com/Antoniorios17/deployment_elastic_beanstalk/blob/main/images/Jenkins-stages.png)
 
-## Deploy application to Elastic Beanstalk
-
-
-# Elastic Beanstalk Flask App Deployment
+## Elastic Beanstalk Flask App Deployment
 
 1. Open AWS Console: [Elastic Beanstalk](us-east-1.console.aws.amazon.com/elasticbeanstalk).
 
@@ -116,14 +113,10 @@ Once the credentials are complete Jenkins will start the pipeline
 
 ![elastic-beanstalk](https://github.com/Antoniorios17/deployment_elastic_beanstalk/blob/main/images/elastic-beanstalk-ok.png)
 
-14. Paste the Domain Name to access the application
+14. The Flask app is now deployed on Elastic Beanstalk. Access it using the provided Domain Name.
 
 ![url-shortenet-webpage](https://github.com/Antoniorios17/deployment_elastic_beanstalk/blob/main/images/url-shortener-webpage.png)
 
 ## System Design
-
-Your Flask app is now deployed on Elastic Beanstalk. Access it using the provided Domain Name.
-
-
 
 ![system-design](http)
