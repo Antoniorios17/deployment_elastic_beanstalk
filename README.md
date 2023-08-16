@@ -33,12 +33,10 @@ Build test and deploy a flask application on Jenkins and deploy using AWS Elasti
 
 Once the credentials are complete Jenkins will start the pipeline
 
-* Pull repository from github 
+* Pull repository from github
   * Clone the repository onto the EC2 instance
-  * Look for a Jenkinfile insde the repository
-
-
-## CodeBlock
+  * Look for a Jenkinfile inside the repository
+  * This is the Jenkinsfile for this project
     ```
         pipeline {
       agent any
@@ -74,5 +72,12 @@ Once the credentials are complete Jenkins will start the pipeline
     }
     ```
 
-
+  * Stages declared in the pipeline
+    * Build
+      * Install all the dependencies of the Flask application
+      * Create a virtual environment
+    * Test
+      * Run pytest to test functionality of the application
+  * Successful execution of all stages can be seen in the Jenkins GUI
+  
 ![jenkins-stages](https://github.com/Antoniorios17/deployment_elastic_beanstalk/blob/main/images/Jenkins-stages.png)
